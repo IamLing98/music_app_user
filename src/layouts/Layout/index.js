@@ -4,7 +4,7 @@ import DefaultLayout from "../Container/index";
 
 const Layout = (props) => {
   return (
-    <div className="container-scroller"> 
+    <div className="container-scroller">
       <Header></Header>
       <DefaultLayout></DefaultLayout>
     </div>

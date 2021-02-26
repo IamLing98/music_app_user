@@ -1,6 +1,6 @@
 import React from "react";
 import BottomBarListItem from "../../components/BottomBar/BottomBarListItem";
-
+import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
 const BottomBar = (props) => {
   return (
     <nav className="bottom-navbar">
@@ -13,8 +13,8 @@ const BottomBar = (props) => {
             : ""}
           <li className="nav-item">
             <a className="nav-link" href="index.html">
-              <i className="mdi mdi-file-document-box menu-icon" />
-              <span className="menu-title">Dashboard</span>
+              <AccessAlarmIcon/>
+              <span className="menu-title">Trang chủ</span>
             </a>
           </li>
           <li className="nav-item">

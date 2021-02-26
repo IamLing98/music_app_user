@@ -1,13 +1,12 @@
-import Dashboard from "@material-ui/icons/Dashboard"; 
+import React, { lazy } from "react";
 
-const dashboardRoutes = [
-  {
-    path: "/dashboard",
-    name: "Dashboard", 
-    icon: Dashboard,
-    component: DashboardPage,
-    layout: "/admin"
-  }, 
+import Dashboard from "@material-ui/icons/Dashboard";
+const Tracks = React.lazy(() => import("./views/Tracks/index"));
+
+const routes = [
+  { path: "/", exact: true, name: "Home" },
+  { path: "/dashboard", name: "Dashboard", component: Dashboard },
+  { path: "/tracks", name: "Tracks", component: Tracks },
 ];
 
-export default dashboardRoutes;
+export default routes;
