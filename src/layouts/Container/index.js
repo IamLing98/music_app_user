@@ -5,7 +5,7 @@ import Footer from "../Footer/index";
 const DefaultLayout = (props) => {
   return (
     <div className="container page-body-wrapper">
-      <div class="main-panel">
+      <div className="main-panel">
         <ContentWrapper />
         <Footer />
       </div>

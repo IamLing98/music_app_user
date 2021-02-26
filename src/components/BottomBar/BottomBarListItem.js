@@ -1,12 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavItem, NavLink } from "reactstrap";
+import Translation from "../../utils/int8-util";
 
 const BottomBarListItem = (props) => {
   return (
-    <li className="nav-item">
+    <NavItem className="nav-item" key={"nav" + props.path}>
       <NavLink to={props.path} className="nav-link">
         <i className={props.icon} />
-        <span className="menu-title">{props.title}</span>
+        <span className="menu-title">
+          <Translation value={props.title} />
+        </span>
         <i className="menu-arrow" />
       </NavLink>
       {props.children ? (
@@ -14,11 +17,11 @@ const BottomBarListItem = (props) => {
           <ul className="submenu-item">
             {props.children.map((child, index) => {
               return (
-                <li className="nav-item" key={"BtBar" + index}>
+                <NavItem className="nav-item" key={"BtBar" + index}>
                   <NavLink className="nav-link" to={child.path}>
-                    {child.title}
+                    <Translation value={child.title} />
                   </NavLink>
-                </li>
+                </NavItem>
               );
             })}
           </ul>
@@ -26,7 +29,7 @@ const BottomBarListItem = (props) => {
       ) : (
         ""
       )}
-    </li>
+    </NavItem>
   );
 };
 

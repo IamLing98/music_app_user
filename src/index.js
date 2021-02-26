@@ -14,7 +14,7 @@ const availableLanguages = ["en", "vi"];
 i18n
   .use(Backend)
   .use(LanguageDetector)
-  .use(initReactI18next)``
+  .use(initReactI18next)
   .init({
     fallbackLng,
     detection: {

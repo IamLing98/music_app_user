@@ -5,19 +5,7 @@ import Translation from "../../utils/int8-util";
 
 const App = (props) => {
   return (
-    <div>
-      <button
-        onClick={() => {
-          console.log("omg");
-          i18next.changeLanguage("en");
-        }}
-        className="btn btn-primary"
-      >
-        EN
-      </button> 
-      <button onClick={() => i18next.changeLanguage("vi")} className="btn btn-primary">
-        VN
-      </button>
+    <div> 
       content: <Translation value="home" />
     </div>
   );

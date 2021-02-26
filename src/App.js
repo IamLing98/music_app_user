@@ -6,6 +6,7 @@ import Layout from "./layouts/index";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./assets/scss/style.scss";
+import 'antd/dist/antd.css';  
 
 const loading = () => (
   <div className="animated fadeIn pt-3 text-center">

@@ -1,3 +1,12 @@
 {
-    "home": "Home"
+    "home": "Home",
+    "tracks": "Tracks",
+    "playlists":"Playlist",
+    "collection":"Collection",
+    "video":"Video",
+    "rank":"Rank",
+    "topic":"Topic",
+    "top100":"Top 100",
+    "search":"Search"
+
 }

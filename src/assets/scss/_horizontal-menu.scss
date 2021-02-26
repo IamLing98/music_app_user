@@ -367,7 +367,8 @@
 					padding: 17px 32px;
 					line-height: 1;
 					font-weight: 600;
-					@extend .d-block;
+					// @extend .d-block;
+					display:flex;
 					@extend .align-items-center;
 					text-align: center;	
 					.menu-title {
@@ -376,12 +377,12 @@
 						display: block;
 					}
 					.menu-icon {
-						margin-right: 0;
+						margin-right: 5px;
 						font-size: $horizontal-menu-icon-font-size;
 						color: $horizontal-bottom-menu-item-icon-color;
 						font-weight: 400;
 						display: block;
-						margin-bottom: 0.625rem;
+						// margin-bottom: 0.625rem;
 						.rtl & {
 							margin-right: 0;
 							margin-left: 10px;
