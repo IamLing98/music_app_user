@@ -127,7 +127,7 @@ const PlayerWrapper = (props) => {
                           </div>
                           <div className="handle" />
                           <div className="round">
-                            <img src={VolumeIcon} alt />
+                            <img src={VolumeIcon} />
                           </div>
                         </div>
                       </div>

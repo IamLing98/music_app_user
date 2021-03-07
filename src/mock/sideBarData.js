@@ -1,4 +1,4 @@
-export default [
+   const data =  [
   {
     className: "",
     routes: [
@@ -106,3 +106,5 @@ export default [
     ],
   },
 ];
+
+export default data;

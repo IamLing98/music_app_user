@@ -20,12 +20,12 @@ const SideBar = (props) => {
         <div className="ms_logo_inner">
           <div className="ms_logo">
             <a href="index-2.html">
-              <img src={LogoIcon} alt className="img-fluid" />
+              <img src={LogoIcon} className="img-fluid" />
             </a>
           </div>
           <div className="ms_logo_open">
             <a href="index-2.html">
-              <img src={OpenLogo} alt className="img-fluid" />
+              <img src={OpenLogo} className="img-fluid" />
             </a>
           </div>
         </div>
@@ -34,7 +34,12 @@ const SideBar = (props) => {
             return (
               <ul key={"sideBarList" + index} className={list.className}>
                 {list.routes.map((item, itemIndex) => {
-                  return <SideBarListItem {...item} />;
+                  return (
+                    <SideBarListItem
+                      key={"sideBarListItem" + index + "-" + itemIndex}
+                      {...item}
+                    />
+                  );
                 })}
               </ul>
             );
