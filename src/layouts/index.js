@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Layout  from './Layout/index';
+import Wrapper  from './Wrapper/index';
 
 
 const LayoutHome = (props) => {
@@ -8,7 +8,7 @@ const LayoutHome = (props) => {
     <> 
         <Router>
           <Switch>
-            <Route path="/" component={Layout} />
+            <Route path="/" component={Wrapper} />
           </Switch>
         </Router> 
     </>
