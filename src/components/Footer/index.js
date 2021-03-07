@@ -12,7 +12,7 @@ const Footer = (props) => {
         <div className="row">
           <div className="col-lg-3 col-md-6">
             <div className="footer_box">
-              <h1 className="footer_title">miraculous music station</h1>
+              <h1 className="footer_title"> music station</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -77,7 +77,7 @@ const Footer = (props) => {
                   <div className="foo_con_data">
                     <span className="con-title">email us :</span>
                     <span>
-                      <a href="#">demo@mail.com </a>, <a href="#">dummy@mail.com</a>
+                      <a href="#">vandoan1029i@mail.com </a>, <a href="#">vandoan1029i@mail.com</a>
                     </span>
                   </div>
                 </li>
@@ -87,7 +87,7 @@ const Footer = (props) => {
                   </div>
                   <div className="foo_con_data">
                     <span className="con-title">walk in :</span>
-                    <span>598 Old House Drive, London</span>
+                    <span>Ha Noi - Viet Nam</span>
                   </div>
                 </li>
               </ul>
@@ -125,7 +125,7 @@ const Footer = (props) => {
         <div className="ms_copyright">
           <div className="footer_border" />
           <p>
-            Copyright © 2018 <a href="#">The Miraculous Music Template</a>. All Rights Reserved.
+            Copyright © 2021 <a href="#">The Music Website</a>. All Rights Reserved.
           </p>
         </div>
       </div>
