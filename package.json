@@ -41,6 +41,7 @@
     "redux": "^4.0.5",
     "select2": "^4.0.7",
     "select2-bootstrap-theme": "0.1.0-beta.10",
+    "swiper": "^6.5.0",
     "typeahead.js": "^0.11.1",
     "web-vitals": "^1.0.1"
   },
