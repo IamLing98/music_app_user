@@ -37,11 +37,12 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-slick": "^0.28.0",
     "reactstrap": "^8.9.0",
     "redux": "^4.0.5",
     "select2": "^4.0.7",
     "select2-bootstrap-theme": "0.1.0-beta.10",
-    "swiper": "^6.5.0",
+    "slick-carousel": "^1.8.1",
     "typeahead.js": "^0.11.1",
     "web-vitals": "^1.0.1"
   },

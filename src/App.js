@@ -7,7 +7,8 @@ import Layout from "./layouts/index";
 import "bootstrap/dist/css/bootstrap.css";
 import 'antd/dist/antd.css';
 import "./assets/scss/index.scss";
-import 'swiper/swiper.scss';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const loading = () => (
   <div className="animated fadeIn pt-3 text-center">

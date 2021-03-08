@@ -2,8 +2,7 @@ import React from "react";
 
 import LogoIcon from "../../assets/images/open_logo.png";
 import GooglePlayIcon from "../../assets/images/google_play.jpg";
-import AppStoreIcon from "../../assets/images/app_store.jpg";
-import WindowIcon from "../../assets/images/windows.jpg";
+import AppStoreIcon from "../../assets/images/app_store.jpg"; 
 import PhoneIcon from "../../assets/images/svg/phone.svg";
 import MessageIcon from "../../assets/images/svg/message.svg";
 import AddressIcon from "../../assets/images/svg/add.svg"; 
@@ -41,10 +40,7 @@ const Footer = (props) => {
               </a>
               <a href="#" className="foo_app_btn">
                 <img src={AppStoreIcon} className="img-fluid" />
-              </a>
-              <a href="#" className="foo_app_btn">
-                <img src={WindowIcon} className="img-fluid" />
-              </a>
+              </a> 
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
