@@ -10,18 +10,17 @@ import MusicRIcon3 from "../../assets/images/music/r_music3.jpg";
 import SliderData from "../../mock/sliderData";
 
 const settings = {
-  dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToScroll: 4,
+  dots: true, 
+  speed: 300, 
   slidesToShow: 6,
+  infinite: false,
+  swipeToSlide: true, 
   responsive: [
     {
       breakpoint: 1800,
       settings: {
         slidesToShow: 4,
-        slidesToScroll: 3,
-        infinite: true,
+        slidesToScroll: 3, 
         dots: true,
       },
     },

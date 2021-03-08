@@ -1,12 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper"; 
+import React, { useState, useEffect } from "react";  
 import SwiperContainer from "./SwiperContainer";
-  
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
-
-const Slider = (props) => {
-  const [slidesPerView, setSlidesPerView] = useState(6);
+   
+const Slider = (props) => { 
   return (
     <div className="ms_rcnt_slider">
       <div className="ms_heading">
@@ -19,7 +14,7 @@ const Slider = (props) => {
           </a>
         </span>
       </div>
-      <SwiperContainer slidesPerView={slidesPerView} />
+      <SwiperContainer   />
     </div>
     //     <span className="swiper-notification" aria-live="assertive" aria-atomic="true" />
     //     <span className="swiper-notification" aria-live="assertive" aria-atomic="true" />

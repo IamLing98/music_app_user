@@ -1,4 +1,5 @@
 {
+  "homepage":"http://IamLing98.github.io/music_app_user",
   "name": "music_app_user",
   "version": "0.1.0",
   "private": true,
@@ -49,6 +50,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "compass-mixins": "^0.12.10",
+    "gh-pages": "^3.1.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-inject": "^5.0.2",
@@ -65,7 +67,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
