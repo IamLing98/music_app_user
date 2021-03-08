@@ -36,6 +36,7 @@ const Header = (props) => {
       <Menu.Item key="3">
         <a
           onClick={() => {
+            console.log("asd")
             i18n.changeLanguage("vi");
             setCurrentLanguage({ languageName: "Tiếng Việt", languageShortName: "vi" });
           }}
@@ -68,8 +69,7 @@ const Header = (props) => {
           </span>
         </div>
       </div>
-      <div className="ms_top_right">
-        {" "}
+      <div className="ms_top_right"> 
         <Dropdown overlay={menu} trigger={["click"]}>
           <div className="ms_top_lang">
             <span>
