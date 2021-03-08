@@ -1,5 +1,5 @@
 {
-  "homepage":"http://IamLing98.github.io/music_app_user",
+  "homepage": "http://IamLing98.github.io/music_app_user",
   "name": "music_app_user",
   "version": "0.1.0",
   "private": true,
@@ -36,6 +36,7 @@
     "react-i18next": "^11.8.8",
     "react-redux": "7.2.2",
     "react-router": "^5.2.0",
+    "react-router-cache-route": "^1.11.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.0",

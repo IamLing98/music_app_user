@@ -1,17 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Wrapper  from './Wrapper/index';
-
+import SideBar from "../components/SideBar";
+import PageWrapper from "../components/PageWrapper";
+import Footer from "../components/Footer";
+import Player from "../components/Player";
 
 const LayoutHome = (props) => {
   return (
-    <> 
-        <Router>
-          <Switch>
-            <Route path="/" component={Wrapper} />
-          </Switch>
-        </Router> 
-    </>
+    <div className="ms_main_wrapper">
+      <SideBar />
+      <PageWrapper />
+      <Footer />
+      <Player />
+    </div>
   );
 };
 export default LayoutHome;
