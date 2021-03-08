@@ -88,8 +88,8 @@ const SwiperContainer = (props) => {
   }
 
   return (
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
+    <div className="swiper-container">
+      <div className="swiper-wrapper">
         <Slider
           {...settings}
           nextArrow={SampleNextArrow({ className: "swiper-button-next slider_nav_next" })}

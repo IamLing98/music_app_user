@@ -46,9 +46,10 @@
     "select2-bootstrap-theme": "0.1.0-beta.10",
     "slick-carousel": "^1.8.1",
     "typeahead.js": "^0.11.1",
+    "typescript": "^4.2.3",
     "web-vitals": "^1.0.1"
   },
-  "devDependencies": {
+  "devDependencies": { 
     "browser-sync": "^2.26.7",
     "compass-mixins": "^0.12.10",
     "gh-pages": "^3.1.0",
