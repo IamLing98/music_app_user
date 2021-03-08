@@ -8,7 +8,7 @@ import MusicRIcon from "../../assets/images/music/r_music1.jpg";
 const SlideContent = (props) => {
   return (
     <div
-      className="swiper-slide swiper-slide-duplicate"
+      className="swiper-slide"
       style={{ marginRight: 30 }} 
     >
       <div className="ms_rcnt_box">
