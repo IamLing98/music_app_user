@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/IamLing98/music_app_user/static/css/main.bf68b2e5.chunk.css",
+    "main.js": "/IamLing98/music_app_user/static/js/main.e654fe89.chunk.js",
+    "main.js.map": "/IamLing98/music_app_user/static/js/main.e654fe89.chunk.js.map",
+    "runtime-main.js": "/IamLing98/music_app_user/static/js/runtime-main.6fe368ae.js",
+    "runtime-main.js.map": "/IamLing98/music_app_user/static/js/runtime-main.6fe368ae.js.map",
+    "static/css/2.b26469ae.chunk.css": "/IamLing98/music_app_user/static/css/2.b26469ae.chunk.css",
+    "static/js/2.f4653eda.chunk.js": "/IamLing98/music_app_user/static/js/2.f4653eda.chunk.js",
+    "static/js/2.f4653eda.chunk.js.map": "/IamLing98/music_app_user/static/js/2.f4653eda.chunk.js.map",
+    "static/js/3.d523ce0e.chunk.js": "/IamLing98/music_app_user/static/js/3.d523ce0e.chunk.js",
+    "static/js/3.d523ce0e.chunk.js.map": "/IamLing98/music_app_user/static/js/3.d523ce0e.chunk.js.map",
+    "index.html": "/IamLing98/music_app_user/index.html",
+    "static/css/2.b26469ae.chunk.css.map": "/IamLing98/music_app_user/static/css/2.b26469ae.chunk.css.map",
+    "static/css/main.bf68b2e5.chunk.css.map": "/IamLing98/music_app_user/static/css/main.bf68b2e5.chunk.css.map",
+    "static/js/2.f4653eda.chunk.js.LICENSE.txt": "/IamLing98/music_app_user/static/js/2.f4653eda.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/IamLing98/music_app_user/static/media/sound.5112d769.svg",
+    "static/media/add.06f8091a.svg": "/IamLing98/music_app_user/static/media/add.06f8091a.svg",
+    "static/media/banner.d40c4ec4.png": "/IamLing98/music_app_user/static/media/banner.d40c4ec4.png",
+    "static/media/lang.c46d4be7.svg": "/IamLing98/music_app_user/static/media/lang.c46d4be7.svg",
+    "static/media/message.126af46d.svg": "/IamLing98/music_app_user/static/media/message.126af46d.svg",
+    "static/media/more.29a74d97.svg": "/IamLing98/music_app_user/static/media/more.29a74d97.svg",
+    "static/media/phone.894d2865.svg": "/IamLing98/music_app_user/static/media/phone.894d2865.svg",
+    "static/media/play.675dd98c.svg": "/IamLing98/music_app_user/static/media/play.675dd98c.svg",
+    "static/media/r_music1.6ce9bf93.jpg": "/IamLing98/music_app_user/static/media/r_music1.6ce9bf93.jpg",
+    "static/media/r_music2.041650cc.jpg": "/IamLing98/music_app_user/static/media/r_music2.041650cc.jpg",
+    "static/media/r_music3.e08e10eb.jpg": "/IamLing98/music_app_user/static/media/r_music3.e08e10eb.jpg",
+    "static/media/search.1fe36e1b.svg": "/IamLing98/music_app_user/static/media/search.1fe36e1b.svg",
+    "static/media/slick-theme.css": "/IamLing98/music_app_user/static/media/slick.c94f7671.ttf",
+    "static/media/volume.865315d6.svg": "/IamLing98/music_app_user/static/media/volume.865315d6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fe368ae.js",
+    "static/css/2.b26469ae.chunk.css",
+    "static/js/2.f4653eda.chunk.js",
+    "static/css/main.bf68b2e5.chunk.css",
+    "static/js/main.e654fe89.chunk.js"
+  ]
+}
