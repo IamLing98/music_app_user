@@ -12,20 +12,48 @@ import SliderData from "../../mock/sliderData";
 const settings = {
   dots: true,
   infinite: true,
-  speed: 500,
+  speed: 300,
   slidesToScroll: 4,
+  slidesToShow: 6,
+  responsive: [
+    {
+      breakpoint: 1800,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 990,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 };
 
 const SwiperContainer = (props) => {
   useEffect(() => {}, [props.slidesPerView]);
 
   return (
-    <Slider {...settings} slidesToShow={props.slidesPerView}>
-      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} /> 
-      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} /> 
-      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} /> 
-      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} /> 
-      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} /> 
+    <Slider {...settings}>
+      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} />
+      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} />
+      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} />
+      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} />
+      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} />
+      <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} />
       <SlideContent trackName="Dream Your Moments (Duet)" authors={["Đoàn Văn Linh"]} />
     </Slider>
   );
