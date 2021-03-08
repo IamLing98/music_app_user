@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import SideBarListItem from "./SideBarListItem";
 
 import LogoIcon from "../../assets/images/logo.png";
@@ -20,12 +20,12 @@ const SideBar = (props) => {
         <div className="ms_logo_inner">
           <div className="ms_logo">
             <a href="index-2.html">
-              <img src={LogoIcon} className="img-fluid" />
+              <img alt="slide-bar-img" src={LogoIcon} className="img-fluid" />
             </a>
           </div>
           <div className="ms_logo_open">
             <a href="index-2.html">
-              <img src={OpenLogo} className="img-fluid" />
+              <img alt="slide-bar-img" src={OpenLogo} className="img-fluid" />
             </a>
           </div>
         </div>

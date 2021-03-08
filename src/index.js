@@ -25,9 +25,9 @@ i18n
     interpolation: {
       escapeValue: false, // no need for react. it escapes by default
     },
-    backend: {
-      loadPath: "http://IamLing98.github.io/music_app_user/locales/{{lng}}/{{ns}}.json",
-    },
+    // backend: {
+    //   loadPath: '/hompagelsd/locales/{{lng}}/{{ns}}.json'
+    // }
   });
 
 ReactDOM.render(

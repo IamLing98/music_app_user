@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import PlayIcon from "../../assets/images/svg/play.svg";
@@ -7,62 +7,59 @@ import MusicRIcon from "../../assets/images/music/r_music1.jpg";
 
 const SlideContent = (props) => {
   return (
-    <div
-      className="swiper-slide"
-      style={{ marginRight: 30 }} 
-    >
+    <div className="swiper-slide" style={{ marginRight: 30 }}>
       <div className="ms_rcnt_box">
         <div className="ms_rcnt_box_img">
-          <img src={MusicRIcon} />
+          <img alt="slide-img" src={MusicRIcon} />
           <div className="ms_main_overlay">
             <div className="ms_box_overlay" />
             <div className="ms_more_icon">
-              <img src={MoreIcon} alt />
+              <img alt="slide-img" src={MoreIcon} />
             </div>
             <ul className="more_option">
               <li>
-                <a href="#">
+                <Link href="#">
                   <span className="opt_icon">
                     <span className="icon icon_fav" />
                   </span>
                   Add To Favourites
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link href="#">
                   <span className="opt_icon">
                     <span className="icon icon_queue" />
                   </span>
                   Add To Queue
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link href="#">
                   <span className="opt_icon">
                     <span className="icon icon_dwn" />
                   </span>
                   Download Now
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link href="#">
                   <span className="opt_icon">
                     <span className="icon icon_playlst" />
                   </span>
                   Add To Playlist
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link href="#">
                   <span className="opt_icon">
                     <span className="icon icon_share" />
                   </span>
                   Share
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="ms_play_icon">
-              <img src={PlayIcon} alt />
+              <img alt="slide-img" src={PlayIcon} />
             </div>
           </div>
         </div>

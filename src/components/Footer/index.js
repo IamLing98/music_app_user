@@ -1,19 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import LogoIcon from "../../assets/images/open_logo.png";
 import GooglePlayIcon from "../../assets/images/google_play.jpg";
-import AppStoreIcon from "../../assets/images/app_store.jpg"; 
+import AppStoreIcon from "../../assets/images/app_store.jpg";
 import PhoneIcon from "../../assets/images/svg/phone.svg";
 import MessageIcon from "../../assets/images/svg/message.svg";
-import AddressIcon from "../../assets/images/svg/add.svg"; 
+import AddressIcon from "../../assets/images/svg/add.svg";
 
 const Footer = (props) => {
   return (
     <div className="ms_footer_wrapper">
       <div className="ms_footer_logo">
-        <a href="index-2.html">
-          <img src={LogoIcon} />
-        </a>
+        <Link to="/">
+          <img alt="footer-img" src={LogoIcon} />
+        </Link>
       </div>
       <div className="ms_footer_inner">
         <div className="row">
@@ -35,12 +36,12 @@ const Footer = (props) => {
                 Go Mobile with our app.
                 <br /> Listen to your favourite songs at just one click. Download Now !
               </p>
-              <a href="#" className="foo_app_btn">
-                <img src={GooglePlayIcon} className="img-fluid" />
-              </a>
-              <a href="#" className="foo_app_btn">
-                <img src={AppStoreIcon} className="img-fluid" />
-              </a> 
+              <Link to="/" className="foo_app_btn">
+                <img alt="footer-img" src={GooglePlayIcon} className="img-fluid" />
+              </Link>
+              <Link to="/" className="foo_app_btn">
+                <img alt="footer-img" src={AppStoreIcon} className="img-fluid" />
+              </Link>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -63,9 +64,9 @@ const Footer = (props) => {
                   />
                 </div>
                 <div className="form-group">
-                  <a href="#" className="ms_btn">
+                  <Link to="/" className="ms_btn">
                     sign me up
-                  </a>
+                  </Link>
                 </div>
               </form>
             </div>
@@ -76,7 +77,7 @@ const Footer = (props) => {
               <ul className="foo_con_info">
                 <li>
                   <div className="foo_con_icon">
-                    <img src={PhoneIcon} />
+                    <img alt="footer-img" src={PhoneIcon} />
                   </div>
                   <div className="foo_con_data">
                     <span className="con-title">Call us :</span>
@@ -85,18 +86,18 @@ const Footer = (props) => {
                 </li>
                 <li>
                   <div className="foo_con_icon">
-                    <img src={MessageIcon} />
+                    <img alt="footer-img" src={MessageIcon} />
                   </div>
                   <div className="foo_con_data">
                     <span className="con-title">email us :</span>
                     <span>
-                      <a href="#">vandoan1029i@mail.com </a>
+                      <a href="mailto:vandoan1029i@mail.com">vandoan1029i@mail.com</a>
                     </span>
                   </div>
                 </li>
                 <li>
                   <div className="foo_con_icon">
-                    <img src={AddressIcon} />
+                    <img alt="footer-img" src={AddressIcon} />
                   </div>
                   <div className="foo_con_data">
                     <span className="con-title">walk in :</span>
@@ -108,24 +109,24 @@ const Footer = (props) => {
                 <div className="share_title">follow us :</div>
                 <ul>
                   <li>
-                    <a href="#">
+                    <Link to="/">
                       <i className="fa fa-facebook" aria-hidden="true" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="/">
                       <i className="fa fa-linkedin" aria-hidden="true" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="/">
                       <i className="fa fa-twitter" aria-hidden="true" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="/">
                       <i className="fa fa-google-plus" aria-hidden="true" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -138,7 +139,8 @@ const Footer = (props) => {
         <div className="ms_copyright">
           <div className="footer_border" />
           <p>
-            Copyright © 2021 <a href="#">The Music Website</a>. All Rights Reserved.
+            Copyright © 2021 <Link to="/discover">The Music Website</Link>. All Rights
+            Reserved.
           </p>
         </div>
       </div>

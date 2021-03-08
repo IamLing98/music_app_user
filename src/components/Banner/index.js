@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import ImageBanner from "../../assets/images/banner.png";
 
@@ -9,7 +10,7 @@ const Banner = (props) => {
         <div className="row">
           <div className="col-lg-12 col-md-12">
             <div className="ms_banner_img">
-              <img src={ImageBanner} className="img-fluid" />
+              <img alt="banner-img" src={ImageBanner} className="img-fluid" />
             </div>
             <div className="ms_banner_text">
               <h1>This Month’s</h1>
@@ -21,12 +22,8 @@ const Banner = (props) => {
                 many more...
               </p>
               <div className="ms_banner_btn">
-                <a href="#" className="ms_btn">
-                  Listen Now
-                </a>
-                <a href="#" className="ms_btn">
-                  Add To Queue
-                </a>
+                <Link to="/" className="ms_btn">Listen Now</Link>
+                <Link to="/" className="ms_btn">Add To Queue</Link>
               </div>
             </div>
           </div>

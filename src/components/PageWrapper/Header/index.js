@@ -18,31 +18,28 @@ const Header = (props) => {
 
   useEffect(() => {
     i18n.changeLanguage(currentLanguage.languageShortName);
-  }, []);
+  }, [currentLanguage.languageShortName]);
 
   const menu = () => (
     <Menu>
       <Menu.Item key="0">
-        <a
+        <Link
           onClick={() => {
-            i18n.changeLanguage("en");
             setCurrentLanguage({ languageName: "English", languageShortName: "en" });
           }}
         >
           English
-        </a>
+        </Link>
       </Menu.Item>
       <Menu.Divider />
       <Menu.Item key="3">
-        <a
+        <Link
           onClick={() => {
-            console.log("asd")
-            i18n.changeLanguage("vi");
             setCurrentLanguage({ languageName: "Tiếng Việt", languageShortName: "vi" });
           }}
         >
           Tiếng Việt
-        </a>
+        </Link>
       </Menu.Item>
     </Menu>
   );
@@ -52,7 +49,7 @@ const Header = (props) => {
         <div className="ms_top_search">
           <input type="text" className="form-control" placeholder={t("Search") + "..."} />
           <span className="search_icon">
-            <img src={SearchIcon} />
+            <img alt="heade-img" src={SearchIcon} />
           </span>
         </div>
         <div className="ms_top_trend">
@@ -69,11 +66,11 @@ const Header = (props) => {
           </span>
         </div>
       </div>
-      <div className="ms_top_right"> 
+      <div className="ms_top_right">
         <Dropdown overlay={menu} trigger={["click"]}>
           <div className="ms_top_lang">
             <span>
-              {currentLanguage.languageName} <img src={LanguageIcon} />
+              {currentLanguage.languageName} <img alt="heade-img" src={LanguageIcon} />
             </span>
           </div>
         </Dropdown>
